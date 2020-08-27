@@ -1,0 +1,36 @@
+h1{
+    color: brown;
+}
+
+.About{
+    background-color: rgb(31, 0, 209);
+}
+
+.prelaunch {
+    color: green;
+}
+
+.step1 {
+    color: red;
+}
+
+.step2 {
+    color: darkgoldenrod;
+}
+
+.step3 {
+    color: blue;
+}
+
+.step4 {
+    color: purple;
+}
+
+.step5 {
+    color: orange;
+}
+
+p{
+    font-style: oblique;
+}
+

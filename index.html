@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>
+    Global E-Library
+  </title>
+
+  <link rel = "stylesheet" type = "text/css" href="style.css"/>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/p5.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/p5.dom.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/p5.sound.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/p5.play.js"></script>
+
+  <meta charset="utf-8">
+</head>
+<body>
+  <div class="student1">
+    <h1><u>Global E-Library</u></h1>
+  </div>
+
+  <input type="file" class="file" id="attachment" style="display:none;" onchange="fileSelected(this)"/>
+  <input type="button" class="file" id="btnAttachment" onclick="openAttachment()" value="File"/>
+  <input type="button" id="uploadButton" onclick="uploadAttachment()" value="Upload File"/>
+
+  <script src="sketch.js"></script>
+  
+  <div class="prelaunch">
+    <p>Pre-Launch Preparations: Beta version of the app with more features will be shared with language experts who can appprove the content.</p>
+  </div>
+
+  <div class="step1">
+    <p>Step-1: User will download the app and register with personal details.</p> 
+  </div>
+
+  <div class="step2">
+    <p>Step-2: User will take the picture or upload from camera roll of the literature they want to read.</p>
+  </div>
+  
+  <div class="step3">
+    <p>Step-3: The app will check the same in it's database if it is already there will provide the translation to the user. If it is not in the database, will forward the same to the respective language expert.</p>
+  </div>
+
+  <div class="step4">
+    <p>Step-4: The language expert will convert the literature and send it for approval to the admin of the app.</p>
+  </div>
+
+  <div class="step5">
+    <p>Step-5: Once admin approves the translation, the same is added to the database and the user will be notified.</p>
+  </div>
+  
+</body>
+</html>
